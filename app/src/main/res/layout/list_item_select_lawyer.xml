@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="90dp">
+
+    <ImageView
+        android:id="@+id/itemImage"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_centerVertical="true"
+        android:layout_margin="15dp"
+        android:src="@mipmap/qita" />
+
+    <TextView
+        android:id="@+id/itemName"
+        style="@style/black16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@+id/itemImage"
+        android:text="王大锤" />
+
+    <TextView
+        android:id="@+id/code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/itemName"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/itemName"
+        android:text="12737****2322"
+        android:textColor="@color/TextColor2"
+        android:textSize="14sp" />
+
+    <TextView
+        style="@style/hui12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/itemImage"
+        android:text="100个回复，688个帖子" />
+
+    <RatingBar
+        android:id="@+id/mRatingBar"
+        style="@style/roomRatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="14dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        android:layout_toRightOf="@+id/itemImage"
+        android:rating="4.5" />
+
+    <TextView
+        style="@style/white11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/mRatingBar"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/mRatingBar"
+        android:background="@drawable/shape_red_noround"
+        android:gravity="center"
+        android:paddingBottom="1dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:paddingTop="1dp"
+        android:text="4.5" />
+
+    <ImageView
+        android:src="@mipmap/jiantou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp" />
+
+    <View
+        style="@style/line_h"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/page_gray_color"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/title_back">
+
+        <com.ebaonet.lawyer.ui.weight.AutoCompleteTextViewWithDelete
+            android:id="@+id/edit"
+            style="@style/black14"
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_toLeftOf="@+id/cancel"
+            android:background="@color/white"
+            android:hint="热门"
+            android:imeOptions="actionSearch"
+            android:paddingLeft="30dp" />
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignLeft="@+id/edit"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/neibusuosou" />
+
+        <TextView
+            android:id="@+id/cancel"
+            style="@style/white14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="15dp"
+            android:text="取消" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/mListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null"
+        android:dividerHeight="0dp" />
+
+    <TextView
+        android:id="@+id/noSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:text="没有我想找的知识"
+        android:visibility="invisible"
+        android:textColor="@drawable/blue_to_red"
+        android:textSize="14sp" />
+</LinearLayout>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent">
+
+
+<com.ebaonet.lawyer.ui.weight.TitleView
+    android:layout_width="match_parent"
+    app:display_style="left_center"
+    app:displayname="个人信息"
+    android:layout_height="wrap_content">
+    android:layout_width="match_parent"
+    app:display_style="left_center"
+    app:displayname="个人信息"
+    android:layout_height="wrap_content">
+
+</com.ebaonet.lawyer.ui.weight.TitleView>
+    <RelativeLayout
+        android:id="@+id/avatar_relative"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+
+        android:layout_marginTop="15dp"
+        android:layout_height="74.5dp">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/avatar"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/jiantou"
+            android:layout_marginRight="10dp"
+            fresco:actualImageScaleType="centerInside"
+            fresco:roundAsCircle="true"
+            fresco:roundingBorderColor="@color/black1"
+            fresco:roundingBorderWidth="1dp"
+            />
+        <ImageView
+            android:id="@+id/jiantou"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/jiantou"
+            android:layout_marginRight="15dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="18dp"
+            android:text="头像"
+            style="@style/black16"
+            />
+    </RelativeLayout>
+    <include layout="@layout/item_divider_line"
+        style="@style/divider_margin_top_15"
+        ></include>
+    <com.ebaonet.lawyer.ui.weight.LeftTextAndRightTextView
+    android:id="@+id/name"
+
+    android:layout_width="match_parent"
+    android:layout_height="43.5dp"
+    app:leftText="用户名"
+    app:rightText="张三"
+    app:isShowImage="false"
+    android:background="@color/white"
+
+    >
+
+</com.ebaonet.lawyer.ui.weight.LeftTextAndRightTextView>
+    <include layout="@layout/item_divider_line"
+        style="@style/divider_margin_left_15"
+        ></include>
+    <com.ebaonet.lawyer.ui.weight.LeftTextAndRightTextView
+        android:id="@+id/area"
+
+        android:layout_width="match_parent"
+        android:layout_height="43.5dp"
+        app:leftText="地区"
+        app:rightText="张三"
+        android:background="@color/white"
+
+        >
+
+    </com.ebaonet.lawyer.ui.weight.LeftTextAndRightTextView>
+    <include layout="@layout/item_divider_line"
+        style="@style/divider_margin_left_15"
+        ></include>
+    <com.ebaonet.lawyer.ui.weight.LeftTextAndRightTextView
+        android:id="@+id/industry"
+
+
+        android:layout_width="match_parent"
+        android:layout_height="43.5dp"
+        app:leftText="电话"
+        app:rightText="张三"
+        app:isShowImage="false"
+        android:background="@color/white"
+        >
+
+    </com.ebaonet.lawyer.ui.weight.LeftTextAndRightTextView>
+    <include layout="@layout/item_divider_line"
+        style="@style/divider_margin_left_15"
+        ></include>
+    <com.ebaonet.lawyer.ui.weight.LeftTextAndRightTextView
+        android:id="@+id/email_address"
+
+        android:layout_width="match_parent"
+        android:layout_height="43.5dp"
+        app:leftText="邮箱地址"
+        app:rightText="张三"
+        android:background="@color/white"
+
+        >
+
+    </com.ebaonet.lawyer.ui.weight.LeftTextAndRightTextView>
+    <include layout="@layout/item_divider_line"
+        ></include>
+    <include layout="@layout/item_divider_line"
+        style="@style/divider_margin_top_15"
+        ></include>
+
+    <com.ebaonet.lawyer.ui.weight.LeftTextAndRightTextView
+        android:id="@+id/trade"
+
+        android:layout_width="match_parent"
+        android:layout_height="43.5dp"
+        app:leftText="所处行业"
+        app:rightText="张三"
+
+        android:background="@color/white"
+
+        >
+
+    </com.ebaonet.lawyer.ui.weight.LeftTextAndRightTextView>
+
+    <include layout="@layout/item_divider_line"
+        style="@style/divider_margin_left_15"
+        ></include>
+    <com.ebaonet.lawyer.ui.weight.LeftTextAndRightTextView
+        android:id="@+id/profession"
+
+        android:layout_width="match_parent"
+        android:layout_height="43.5dp"
+        app:leftText="职位"
+        app:rightText="张三"
+
+        android:background="@color/white"
+
+        >
+
+    </com.ebaonet.lawyer.ui.weight.LeftTextAndRightTextView>
+    <include layout="@layout/item_divider_line"
+        style="@style/divider_margin_left_15"
+        ></include>
+    <com.ebaonet.lawyer.ui.weight.LeftTextAndRightTextView
+        android:id="@+id/work_years"
+
+        android:layout_width="match_parent"
+        android:layout_height="43.5dp"
+        app:leftText="工作年限"
+        app:rightText="张三"
+
+        android:background="@color/white"
+
+        >
+
+    </com.ebaonet.lawyer.ui.weight.LeftTextAndRightTextView>
+    <include layout="@layout/item_divider_line"
+
+        ></include>
+    <include layout="@layout/item_divider_line"
+        style="@style/divider_margin_top_15"
+        ></include>、
+    <com.ebaonet.lawyer.ui.weight.LeftTextAndRightTextView
+        android:id="@+id/lawyer_info"
+
+        android:layout_width="match_parent"
+        android:layout_height="43.5dp"
+        app:leftText="认证律师信息"
+        app:rightText="张三"
+
+        android:background="@color/white"
+
+        >
+
+    </com.ebaonet.lawyer.ui.weight.LeftTextAndRightTextView>
+</LinearLayout>

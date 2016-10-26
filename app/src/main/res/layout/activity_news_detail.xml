@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.ebaonet.lawyer.ui.weight.TitleView
+        android:id="@+id/mTitleView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:display_style="left_center"
+    />
+
+    <com.ebaonet.lawyer.ui.weight.ProgressWebView
+        android:id="@+id/mWebView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/mTitleView" />
+
+    <TextView
+        android:id="@+id/progress_text"
+        style="@style/white16"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/loading_bg"
+        android:gravity="center"
+        android:padding="10dp" />
+</RelativeLayout>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/root_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="44dp">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/app_bar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.CollapsingToolbarLayout
+                android:id="@+id/collapsing_toolbar_layout"
+                android:layout_width="match_parent"
+                android:layout_height="370dp"
+                android:background="@color/white"
+                app:contentScrim="@color/title_back"
+                app:expandedTitleMarginEnd="48dp"
+                app:expandedTitleMarginStart="48dp"
+                app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    app:layout_collapseMode="pin"
+                    app:navigationIcon="@mipmap/fanhui"
+                    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                    app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/background"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:background="@mipmap/p1" />
+
+                    <TextView
+                        android:id="@+id/user_name"
+                        style="@style/white16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/background"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_toRightOf="@+id/photo"
+                        android:text="王大锤      12*******387" />
+
+                    <ImageView
+                        android:id="@+id/photo"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="215dp"
+                        android:src="@mipmap/qita" />
+
+                    <RatingBar
+                        android:id="@+id/mRatingBar"
+                        style="@style/roomRatingBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="14dp"
+                        android:layout_alignLeft="@+id/user_name"
+                        android:layout_below="@+id/background"
+                        android:layout_marginTop="10dp"
+                        android:rating="4.5" />
+
+                    <TextView
+                        style="@style/white11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/mRatingBar"
+                        android:layout_marginLeft="15dp"
+                        android:layout_toRightOf="@+id/mRatingBar"
+                        android:background="@drawable/shape_red_noround"
+                        android:gravity="center"
+                        android:paddingBottom="1dp"
+                        android:paddingLeft="3dp"
+                        android:paddingRight="3dp"
+                        android:paddingTop="1dp"
+                        android:text="4.5" />
+
+                    <View
+                        style="@style/line_h"
+                        android:layout_alignParentBottom="true" />
+
+                    <TextView
+                        android:id="@+id/topText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/photo"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="10dp"
+                        android:text="简介"
+                        android:textColor="@color/TextColor2"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/description"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignTop="@+id/topText"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_toRightOf="@+id/topText"
+                        android:text="我卡收到可垃圾速度快拉见识到了卡机上刊登了就爱上立刻就打算看量较大时刻了较大时刻asasda飒飒大连会计说对啦空间收啊实打实大顶顶顶顶顶顶顶顶顶啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊水水水水谁谁谁水水水水解答了跨世纪的拉客阿萨德就卡了"
+                        android:textColor="@color/TextColor2"
+                        android:textSize="14sp" />
+
+                    <!--<RelativeLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="44dp"-->
+                    <!--android:layout_alignParentBottom="true">-->
+
+                    <!--<ImageView-->
+                    <!--android:id="@+id/back"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_centerVertical="true"-->
+                    <!--android:layout_marginLeft="15dp"-->
+                    <!--android:src="@mipmap/fanhui" />-->
+                    <!--</RelativeLayout>-->
+                </RelativeLayout>
+
+            </android.support.design.widget.CollapsingToolbarLayout>
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/toolbar_tab"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_gravity="bottom"
+                android:background="#ffffff"
+                android:fillViewport="false"
+                app:layout_scrollFlags="scroll"
+                app:tabIndicatorColor="#2288d7"
+                app:tabIndicatorHeight="2.0dp"
+                app:tabSelectedTextColor="#2288d7"
+                app:tabTextColor="#666666">
+
+                <android.support.design.widget.TabItem
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="服务次数" />
+
+                <android.support.design.widget.TabItem
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="发布知识" />
+
+
+            </android.support.design.widget.TabLayout>
+
+        </android.support.design.widget.AppBarLayout>
+
+        <android.support.v4.widget.NestedScrollView
+            android:id="@+id/nsv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:scrollbars="none"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/main_vp_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+
+        </android.support.v4.widget.NestedScrollView>
+
+
+    </android.support.design.widget.CoordinatorLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:id="@+id/select"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text="选择该律师提问"
+            android:clickable="true"
+            android:textColor="@drawable/blue_to_red"
+            android:textSize="16sp" />
+
+        <View style="@style/line_h" />
+    </RelativeLayout>
+
+</RelativeLayout>

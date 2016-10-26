@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+
+    <com.ebaonet.lawyer.ui.weight.TitleView
+        android:id="@+id/mTitleView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:display_style="center"
+
+        app:displayname="我的" />
+    <include layout="@layout/item_divider_line"
+        style="@style/divider_margin_top_15"
+
+        ></include>
+    <RelativeLayout
+
+        android:background="@color/white"
+        android:id="@+id/user_relative"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:gravity="center_vertical"
+        >
+        <com.ebaonet.lawyer.ui.weight.CircleImageView
+            android:id="@+id/user_avatar"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:src="@mipmap/touxiang"
+
+            />
+
+        <LinearLayout
+            android:layout_toRightOf="@+id/user_avatar"
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/first_content"
+                style="@style/black16"
+android:text="用户名"
+                android:maxWidth="250dp"
+
+                />
+
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/right_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/jiantou"
+
+            android:layout_marginRight="17dp"
+            />
+    </RelativeLayout>
+    <include layout="@layout/item_divider_line"
+        ></include>
+    <include layout="@layout/item_divider_line"
+        style="@style/divider_margin_top_15"
+        ></include>
+    <com.ebaonet.lawyer.ui.weight.TextWithLeftAndRightImageView
+        android:id="@+id/my_question"
+        android:layout_width="match_parent"
+        android:layout_height="43.5dp"
+        app:content="我的咨询"
+
+        app:left_image1="@mipmap/wodezixun"
+        app:show_left_image="VISIBLE">
+
+    </com.ebaonet.lawyer.ui.weight.TextWithLeftAndRightImageView>
+    <include layout="@layout/item_divider_line"
+        ></include>
+    <com.ebaonet.lawyer.ui.weight.TextWithLeftAndRightImageView
+        android:id="@+id/my_been_questioned"
+        android:layout_width="match_parent"
+        android:layout_height="43.5dp"
+        app:content="咨询我的"
+        app:left_image1="@mipmap/wodezixun"
+        app:show_left_image="VISIBLE">
+
+    </com.ebaonet.lawyer.ui.weight.TextWithLeftAndRightImageView>
+    <include layout="@layout/item_divider_line"
+        ></include>
+    <com.ebaonet.lawyer.ui.weight.TextWithLeftAndRightImageView
+        android:id="@+id/collection"
+        android:layout_width="match_parent"
+        android:layout_height="43.5dp"
+        app:content="我的收藏"
+        app:left_image1="@mipmap/shoucang"
+        app:show_left_image="VISIBLE">
+
+    </com.ebaonet.lawyer.ui.weight.TextWithLeftAndRightImageView>
+    <include layout="@layout/item_divider_line"
+        ></include>
+
+    <LinearLayout
+        android:id="@+id/my_knowledge_lin"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="15dp"
+
+        android:layout_height="wrap_content">
+        <include layout="@layout/item_divider_line"
+
+            ></include>
+
+        <com.ebaonet.lawyer.ui.weight.TextWithLeftAndRightImageView
+            android:id="@+id/my_knowledge"
+            android:layout_width="match_parent"
+            android:layout_height="43.5dp"
+            app:content="我发布的知识"
+            app:left_image1="@mipmap/wofabudezhishi"
+            app:show_left_image="VISIBLE">
+
+        </com.ebaonet.lawyer.ui.weight.TextWithLeftAndRightImageView>
+        <include layout="@layout/item_divider_line"
+
+            ></include>
+    </LinearLayout>
+    <include layout="@layout/item_divider_line"
+
+        style="@style/divider_margin_top_15"
+        ></include>
+    <com.ebaonet.lawyer.ui.weight.TextWithLeftAndRightImageView
+        android:id="@+id/my_setting"
+        android:layout_width="match_parent"
+        android:layout_height="43.5dp"
+        app:content="账户设置"
+        app:left_image1="@mipmap/shezhi"
+        app:show_left_image="VISIBLE">
+
+    </com.ebaonet.lawyer.ui.weight.TextWithLeftAndRightImageView>
+    <include layout="@layout/item_divider_line"
+
+        ></include>
+    <com.ebaonet.lawyer.ui.weight.TextWithLeftAndRightImageView
+        android:id="@+id/suggestion"
+        android:layout_width="match_parent"
+        android:layout_height="43.5dp"
+        app:content="意见反馈"
+        app:left_image1="@mipmap/yijianfankui"
+        app:show_left_image="VISIBLE">
+
+    </com.ebaonet.lawyer.ui.weight.TextWithLeftAndRightImageView>
+    <include layout="@layout/item_divider_line"
+
+        ></include>
+    <com.ebaonet.lawyer.ui.weight.TextWithLeftAndRightImageView
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_height="43.5dp"
+        app:content="关于律言"
+        app:left_image1="@mipmap/guanyulvyan"
+        app:show_left_image="VISIBLE">
+
+    </com.ebaonet.lawyer.ui.weight.TextWithLeftAndRightImageView>
+    <include layout="@layout/item_divider_line"
+
+        style="@style/divider_margin_top_15"
+        ></include>
+    <include layout="@layout/item_divider_line"
+
+        ></include>
+    <com.ebaonet.lawyer.ui.weight.TextWithLeftAndRightImageView
+        android:id="@+id/share"
+        android:layout_width="match_parent"
+        android:layout_height="43.5dp"
+        app:content="推荐给朋友"
+        app:left_image1="@mipmap/tuijiangeioengyou"
+        app:show_left_image="VISIBLE">
+
+    </com.ebaonet.lawyer.ui.weight.TextWithLeftAndRightImageView>
+    <include layout="@layout/item_divider_line"
+
+        ></include>
+
+    </LinearLayout>
+</ScrollView>

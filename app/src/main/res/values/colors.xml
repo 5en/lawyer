@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="gray">#dcdcdc</color>
+    <color name="white">#ffffff</color>
+    <color name="green">#3dc47a</color>
+    <color name="black1">#2a2a2a</color>
+    <color name="alpha10">#00000000</color>
+    <color name="title_back">#14202b</color>
+    <color name="lineColor">@color/gray</color>
+    <!--特别灰-->
+    <color name="TextColor1">#323232</color>
+    <!--中间灰-->
+    <color name="TextColor2">#646464</color>
+    <!--普通灰-->
+    <color name="TextColor3">#969696</color>
+    <!--背景颜色灰-->
+    <color name="background_divider_gray">#dcdcdc</color>
+
+    <!-- 页面背景 -->
+    <color name="page_gray_color">#f5f5f5</color>
+    <!--login-->
+    <color name="login_input_border">#ababab</color>
+    <color name="login_input_background">#f7f7f7</color>
+    <color name="login_login_bg">#a9e72b</color>
+    <color name="login_font_black">#1c1c1c</color>
+    <color name="login_hint_black">#ababab</color>
+    <color name="top_bar_divider_bg">#efefef</color>
+    <color name="register_input_identify_border">#a9e72b</color>
+    <color name="register_font_gray">#ababab</color>
+    <color name="basic_info_top_blue">#199af1</color>
+    <drawable name="blue_to_red1">#4797d1</drawable>
+    <drawable name="blue_to_red2">#e24444</drawable>
+
+</resources>

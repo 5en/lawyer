@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/page_gray_color"
+    android:orientation="vertical">
+
+    <com.ebaonet.lawyer.ui.weight.TitleView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:display_style="left_center"
+        app:displayname="账户设置" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <include
+            style="@style/divider_margin_top_15"
+            layout="@layout/item_divider_line" />
+
+        <RelativeLayout
+
+            android:id="@+id/modify_password"
+            android:layout_width="match_parent"
+            android:layout_height="43.5dp"
+            android:background="@color/white">
+
+            <TextView
+                style="@style/black16"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="14.5dp"
+                android:text="修改登录密码" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:src="@mipmap/jiantou" />
+        </RelativeLayout>
+        <RelativeLayout
+
+            android:id="@+id/modify_phone"
+            android:layout_width="match_parent"
+            android:layout_height="43.5dp"
+            android:background="@color/white">
+
+            <TextView
+                style="@style/black16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="14.5dp"
+                android:text="更换绑定手机号码" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:src="@mipmap/jiantou" />
+        </RelativeLayout>
+
+        <include
+            style="@style/divider_margin_left_15"
+            layout="@layout/item_divider_line"></include>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="43.5dp"
+            android:background="@color/white">
+
+            <TextView
+                style="@style/black16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="14.5dp"
+                android:text="消息推送" />
+
+            <com.ebaonet.lawyer.ui.weight.ToggleButton
+                android:id="@+id/toggle"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                />
+        </RelativeLayout>
+       
+
+        <include
+            style="@style/divider_margin_left_15"
+            layout="@layout/item_divider_line" />
+
+        <RelativeLayout
+            android:id="@+id/clear_cache"
+            android:layout_width="match_parent"
+            android:layout_height="43.5dp"
+            android:background="@color/white">
+
+            <TextView
+                style="@style/black16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="14.5dp"
+                android:text="清理缓存" />
+
+            <TextView
+                android:id="@+id/cache_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="6.5dp"
+
+                android:layout_toLeftOf="@+id/jiantou"
+                android:text="11M" />
+
+            <ImageView
+                android:id="@+id/jiantou"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:src="@mipmap/jiantou" />
+        </RelativeLayout>
+
+        <include layout="@layout/item_divider_line"
+
+            />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="75dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/login_out"
+            android:layout_width="189dp"
+            android:layout_height="44dp"
+android:layout_centerHorizontal="true"
+            android:text="退出当前账户"
+            style="@style/white16"
+            android:background="@drawable/blue_rectangle_circular"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

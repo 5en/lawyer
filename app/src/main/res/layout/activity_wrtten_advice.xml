@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <com.ebaonet.lawyer.ui.weight.TitleView
+        android:id="@+id/mTitleView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:display_style="left_center"
+        app:displayname="书面咨询" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp">
+
+                <TextView
+                    android:id="@+id/top"
+                    style="@style/black14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:text="解答方向" />
+            </RelativeLayout>
+
+            <View style="@style/line_h" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:background="#f5f5f5" />
+
+            <View style="@style/line_h" />
+
+            <TextView
+                style="@style/hui14"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:drawableRight="@mipmap/xiangji"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="选择方向后，输入问题..." />
+
+            <View style="@style/line_h" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:background="#f5f5f5" />
+
+            <View style="@style/line_h" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="最近解决问题"
+                    android:textColor="@color/TextColor2"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="（获得帮助人数2000人）"
+                    android:textColor="@color/TextColor3"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <com.ebaonet.lawyer.ui.weight.ListViewForScrollView
+                android:id="@+id/mListView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="@null"
+                android:dividerHeight="0dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "F:\\ebao\\lawyer\\library\\build\\intermediates\\res\\merged\\release\\layout\\ccwant_activity_select_album.xml",
+        "source": "F:\\ebao\\lawyer\\library\\src\\main\\res\\layout\\ccwant_activity_select_album.xml"
+    },
+    {
+        "merged": "F:\\ebao\\lawyer\\library\\build\\intermediates\\res\\merged\\release\\layout\\ccwant_item_select_photo.xml",
+        "source": "F:\\ebao\\lawyer\\library\\src\\main\\res\\layout\\ccwant_item_select_photo.xml"
+    },
+    {
+        "merged": "F:\\ebao\\lawyer\\library\\build\\intermediates\\res\\merged\\release\\layout\\ccwant_item_publish.xml",
+        "source": "F:\\ebao\\lawyer\\library\\src\\main\\res\\layout\\ccwant_item_publish.xml"
+    },
+    {
+        "merged": "F:\\ebao\\lawyer\\library\\build\\intermediates\\res\\merged\\release\\layout\\ccwant_activity_select_photo.xml",
+        "source": "F:\\ebao\\lawyer\\library\\src\\main\\res\\layout\\ccwant_activity_select_photo.xml"
+    },
+    {
+        "merged": "F:\\ebao\\lawyer\\library\\build\\intermediates\\res\\merged\\release\\layout\\ccwant_activity_photo.xml",
+        "source": "F:\\ebao\\lawyer\\library\\src\\main\\res\\layout\\ccwant_activity_photo.xml"
+    },
+    {
+        "merged": "F:\\ebao\\lawyer\\library\\build\\intermediates\\res\\merged\\release\\layout\\ccwant_item_select_album.xml",
+        "source": "F:\\ebao\\lawyer\\library\\src\\main\\res\\layout\\ccwant_item_select_album.xml"
+    }
+]

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/page_gray_color"
+    android:layout_height="match_parent">
+
+    <com.ebaonet.lawyer.ui.weight.TitleView
+
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:display_style="left_center"
+        app:displayname="咨询我的 "
+        >
+
+    </com.ebaonet.lawyer.ui.weight.TitleView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:layout_height="240dp">
+        <com.ebaonet.lawyer.ui.weight.CircleImageView
+            android:id="@+id/avatar_user"
+            android:layout_width="51dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="13dp"
+            android:src="@mipmap/touxiang"
+            android:layout_marginRight="9dp"
+            android:layout_height="51dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                style="@style/black16"
+                android:text="吴大人@所有人"
+
+                android:layout_marginTop="18sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:maxHeight="63.5dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="13dp"
+                style="@style/hui16"
+                android:lineSpacingExtra="2dp"
+
+                android:text="青岛学生接啊上看到就看得见啊上课了到家啦圣诞节来看"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="8dp"
+                    android:src="@mipmap/shangwujiaoyi"
+
+                    />
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:src="@mipmap/shangwujiaoyi"
+
+                    android:id="@+id/imageView2" />
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="8dp"
+                    android:src="@mipmap/shangwujiaoyi"
+
+                    android:id="@+id/imageView" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:text="2014-35-3 3:3"
+                android:textColor="#959595"
+                android:textSize="14sp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/item_divider_line"></include>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_marginTop="15dp"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true"
+            android:layout_height="wrap_content">
+            <include layout="@layout/item_divider_line"
+
+                ></include>
+            <TextView
+                android:id="@+id/response"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@color/white"
+
+                android:text="回复"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textColor="@color/basic_info_top_blue"
+
+                />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

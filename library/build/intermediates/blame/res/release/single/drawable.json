@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "F:\\ebao\\lawyer\\library\\build\\intermediates\\res\\merged\\release\\drawable\\ccwant_item_select_default.xml",
+        "source": "F:\\ebao\\lawyer\\library\\src\\main\\res\\drawable\\ccwant_item_select_default.xml"
+    },
+    {
+        "merged": "F:\\ebao\\lawyer\\library\\build\\intermediates\\res\\merged\\release\\drawable\\ccwant_item_select_selected.xml",
+        "source": "F:\\ebao\\lawyer\\library\\src\\main\\res\\drawable\\ccwant_item_select_selected.xml"
+    },
+    {
+        "merged": "F:\\ebao\\lawyer\\library\\build\\intermediates\\res\\merged\\release\\drawable\\ccwant_bt_shanchu.xml",
+        "source": "F:\\ebao\\lawyer\\library\\src\\main\\res\\drawable\\ccwant_bt_shanchu.xml"
+    },
+    {
+        "merged": "F:\\ebao\\lawyer\\library\\build\\intermediates\\res\\merged\\release\\drawable\\ccwant_bt_quxiao.xml",
+        "source": "F:\\ebao\\lawyer\\library\\src\\main\\res\\drawable\\ccwant_bt_quxiao.xml"
+    },
+    {
+        "merged": "F:\\ebao\\lawyer\\library\\build\\intermediates\\res\\merged\\release\\drawable\\ccwant_button_blue.xml",
+        "source": "F:\\ebao\\lawyer\\library\\src\\main\\res\\drawable\\ccwant_button_blue.xml"
+    },
+    {
+        "merged": "F:\\ebao\\lawyer\\library\\build\\intermediates\\res\\merged\\release\\drawable\\ccwant_item_press_bg.xml",
+        "source": "F:\\ebao\\lawyer\\library\\src\\main\\res\\drawable\\ccwant_item_press_bg.xml"
+    },
+    {
+        "merged": "F:\\ebao\\lawyer\\library\\build\\intermediates\\res\\merged\\release\\drawable\\ccwant_bt_queding.xml",
+        "source": "F:\\ebao\\lawyer\\library\\src\\main\\res\\drawable\\ccwant_bt_queding.xml"
+    }
+]

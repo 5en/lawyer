@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/page_gray_color"
+    android:orientation="vertical">
+
+    <com.ebaonet.lawyer.ui.weight.TitleView
+        android:id="@+id/mTitleView"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        app:display_style="left_center"
+        app:displayname="成功" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="90dp"
+        android:src="@mipmap/chenggong" />
+
+    <TextView
+        style="@style/black16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:text="您的问题已经成功提交" />
+
+    <TextView
+        style="@style/black16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="相关法律从业者会尽快处理" />
+
+    <TextView
+        style="@style/hui14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:text="您可以在“我的-我的咨询”内查看并编辑" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/hui14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="或点击" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="这里直接跳转"
+            android:textColor="@drawable/blue_to_red"
+            android:textSize="14sp" />
+    </LinearLayout>
+</LinearLayout>

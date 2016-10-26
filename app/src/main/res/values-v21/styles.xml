@@ -1,0 +1,12 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:colorPrimaryDark">@color/title_back</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/title_back</item>
+        <item name="android:windowBackground">@color/page_gray_color</item>
+    </style>
+
+</resources>

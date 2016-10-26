@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/content"
+        style="@style/black14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:maxLines="2"
+        android:text="奥数傀儡的骄傲了跨世纪的拉开建设大街克里斯丁可垃圾时打开了就算了看打了款见识到了" />
+
+    <TextView
+        android:id="@+id/time"
+        style="@style/hui12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="10dp"
+        android:text="2016-10-11" />
+
+    <RatingBar
+        android:id="@+id/mRatingBar"
+        style="@style/roomRatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="14dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:layout_alignBottom="@+id/time"
+        android:rating="4.5" />
+    <View
+        style="@style/line_h"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>

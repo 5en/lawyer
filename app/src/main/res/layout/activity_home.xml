@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="false"
+    android:orientation="vertical">
+
+    <com.ebaonet.lawyer.ui.weight.CustomViewPager
+        android:id="@+id/mMainLayoutContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/mMainDivider" />
+    <View
+        android:id="@+id/mMainDivider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/mMainBottomBar"
+        android:background="#e0e0e0"/>
+    <RadioGroup
+        android:id="@+id/mMainBottomBar"
+        android:layout_width="fill_parent"
+        android:layout_height="49dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#f2f2f2"
+        android:orientation="horizontal"
+       >
+
+        <RadioButton
+            android:id="@+id/mMainPage"
+            style="@style/bottom_radio_group"
+            android:drawableTop="@drawable/selector_main_bottom_image1"
+           />
+        <RadioButton
+            android:id="@+id/mMainRadioKnowledge"
+            style="@style/bottom_radio_group"
+            android:drawableTop="@drawable/selector_main_bottom_image2"
+           />
+        <RadioButton
+            android:id="@+id/mMainRadioMe"
+            style="@style/bottom_radio_group"
+            android:drawableTop="@drawable/selector_main_bottom_image3"
+            />
+
+    </RadioGroup>
+</RelativeLayout>

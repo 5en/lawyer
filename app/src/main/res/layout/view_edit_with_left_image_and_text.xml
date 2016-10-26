@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="44dp"
+    android:gravity="center_vertical"
+
+    android:background="@android:color/white"
+    >
+    <ImageView
+        android:id="@+id/left_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_gravity="center_vertical"
+        android:layout_marginLeft="15.5dp"
+        android:src="@mipmap/touxiang"
+        android:visibility="gone"
+
+        />
+    <TextView
+        android:id="@+id/left_text"
+        android:layout_width="75.5dp"
+        android:layout_height="44dp"
+       android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="15.5dp"
+        android:text="xxxx"
+        android:textColor="@color/black1"
+
+        />
+
+        <EditText
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:gravity="center_vertical"
+
+
+            android:textColorHint="@color/gray"
+            style="@style/black14"
+            android:background="@android:color/transparent"
+
+            android:maxWidth="250dp"
+
+            />
+
+
+
+</LinearLayout>

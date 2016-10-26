@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#88dcdcdc"
+    android:id="@+id/can_be_covered_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="367dp"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:layout_alignParentBottom="true"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="134dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        >
+
+        <LinearLayout
+            android:id="@+id/wechat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+
+                android:padding="10dp"
+                android:src="@mipmap/weixin"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="微信好友"
+                android:gravity="center"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/circle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+
+                android:padding="10dp"
+                android:src="@mipmap/pengyouquan"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="朋友圈"
+                android:gravity="center"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/qq"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:padding="10dp"
+                android:src="@mipmap/qq"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="QQ"
+                android:gravity="center"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/weibo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:padding="10dp"
+
+                android:src="@mipmap/kongjian"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="微博"
+                android:gravity="center"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/item_divider_line">
+
+    </include>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        >
+
+        <LinearLayout
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+
+                android:padding="10dp"
+                android:src="@mipmap/xiugai"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="邮件"
+                android:gravity="center"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/message"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:padding="10dp"
+
+                android:src="@mipmap/shanchu"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="短信"
+                android:gravity="center"
+                />
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/item_divider_line"></include>
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="取消"
+        android:paddingBottom="25dp"
+        style="@style/hui16"
+        />
+
+</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,187 @@
+<resources>
+
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar"></style>
+
+    <style name="loginwhite14">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:drawableRight">@mipmap/delete_all</item>
+    </style>
+
+    <declare-styleable name="EditWithLeftAndRightImageView">
+        <attr name="hint2" format="string"></attr>
+        <attr name="left_image2" format="reference"></attr>
+        <attr name="right_image2" format="reference"></attr>
+        <attr name="content2" format="string"></attr>
+    </declare-styleable>
+
+    <!--login-->
+    <style name="login_input_text">
+        <item name="android:textColor">@color/login_font_black</item>
+        <item name="android:textColorHint">@color/login_hint_black</item>
+        <item name="android:paddingLeft">@dimen/login_input_txt_padding_left</item>
+        <item name="android:textSize">@dimen/login_input_txt_font_size</item>
+        <item name="android:layout_height">@dimen/login_input_txt_height</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:drawableRight">@mipmap/delete_all</item>
+    </style>
+
+    <!--弹出框样式-->
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowIsFloating">true</item>
+        <!-- 设置未浮动窗口 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 设置无边框 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 设置无标题 -->
+        <item name="android:windowBackground">@color/alpha10</item>
+        <!-- 设置完全透明 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 设置屏幕变暗 -->
+
+    </style>
+
+    <style name="white11">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+
+    <style name="white14">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="white16">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <!--线的样式-->
+    <style name="line_h">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/lineColor</item>
+    </style>
+
+    <style name="black12">
+        <item name="android:textColor">@color/TextColor1</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="black14">
+        <item name="android:textColor">@color/TextColor1</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="black16">
+        <item name="android:textColor">@color/TextColor1</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="black18">
+        <item name="android:textColor">@color/TextColor1</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="black20">
+        <item name="android:textColor">@color/TextColor1</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+
+    <style name="hui12">
+        <item name="android:textColor">@color/TextColor3</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="hui14">
+        <item name="android:textColor">@color/TextColor3</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="hui16">
+        <item name="android:textColor">@color/TextColor3</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="hui18">
+        <item name="android:textColor">@color/TextColor3</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="hui20">
+        <item name="android:textColor">@color/TextColor3</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="bottom_radio_group">
+        <item name="android:button">@null</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="divider_margin_left_40">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:layout_marginLeft">40dp</item>
+    </style>
+
+    <style name="divider_margin_top_15">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+    </style>
+
+    <style name="divider_margin_left_15">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:layout_marginLeft">15dp</item>
+    </style>
+
+    <style name="divider_margin_left_5">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+    </style>
+
+    <style name="dialog_from_bottom" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/push_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/push_bottom_out</item>
+    </style>
+    <style name="roomRatingBar" parent="@android:style/Widget.RatingBar">
+
+        <item name="android:progressDrawable">@drawable/select_rating</item>
+
+        <item name="android:minHeight">14dip</item>
+
+        <item name="android:maxHeight">14dip</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="android:windowBackground">@color/page_gray_color</item>
+    </style>
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="LeftTextAndRightTextView">
+        <attr name="leftText" format="string"></attr>
+        <attr name="rightText" format="string"></attr>
+        <attr name="leftTextColor" format="reference"></attr>
+        <attr name="rightTextColor" format="reference"></attr>
+        <attr name="isShowImage" format="boolean"></attr>
+
+    </declare-styleable>
+</resources>

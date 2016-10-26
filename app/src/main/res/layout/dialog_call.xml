@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#10000000"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/hui14"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="拨打电话400-382-927" />
+
+        <View style="@style/line_h" />
+
+        <TextView
+            android:id="@+id/call"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:clickable="true"
+            android:text="拨打"
+            android:textColor="@drawable/blue_to_red" />
+        <View
+            android:background="#f5f5f5"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+        <TextView
+            android:id="@+id/cancel"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:clickable="true"
+            android:text="取消"
+            android:textColor="@drawable/blue_to_red" />
+    </LinearLayout>
+</RelativeLayout>

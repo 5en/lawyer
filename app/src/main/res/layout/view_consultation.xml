@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <include layout="@layout/item_divider_line"></include>
+
+    <LinearLayout
+        android:id="@+id/consultation_root"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:minHeight="200dp"
+        android:layout_height="wrap_content">
+        <com.ebaonet.lawyer.ui.weight.CircleImageView
+            android:id="@+id/avatar_user"
+            android:layout_width="51dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="13dp"
+            android:src="@mipmap/touxiang"
+            android:layout_marginRight="9dp"
+            android:layout_height="51dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/user_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                style="@style/black16"
+                android:text="吴大人@所有人"
+
+                android:layout_marginTop="15dp"
+                />
+            <TextView
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+
+                android:maxHeight="63.5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="13dp"
+                style="@style/hui16"
+                android:lineSpacingExtra="2dp"
+
+                android:text="青岛学生接啊上看到就wwwwwwwwwwwwwwwwwwwwwwwwwwwwww看得见啊上课了到家啦圣诞节来看"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal"
+                >
+                <com.facebook.drawee.view.SimpleDraweeView
+
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                  android:layout_marginRight="8dp"
+                    android:id="@+id/image1"
+
+                    />
+
+                <com.facebook.drawee.view.SimpleDraweeView
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                   android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+
+
+                    android:id="@+id/image2" />
+
+                <com.facebook.drawee.view.SimpleDraweeView
+
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+android:layout_marginLeft="8dp"
+
+
+                    android:id="@+id/image3" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/content_time"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:text="2014-35-3 3:3"
+                android:textColor="#959595"
+                android:textSize="14sp"
+                android:layout_marginBottom="10dp"
+
+                />
+        </LinearLayout>
+    </LinearLayout>
+<include layout="@layout/item_divider_line"></include>
+    <RelativeLayout
+        android:id="@+id/evaluate"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <Button
+            android:layout_width="82dp"
+            android:layout_height="32dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/blue_frame_tanslate_content"
+            android:text="立即评价"
+            android:textSize="14sp"
+            android:textColor="@color/basic_info_top_blue"
+            />
+    </RelativeLayout>
+    <include layout="@layout/item_divider_line"></include>
+
+</LinearLayout>

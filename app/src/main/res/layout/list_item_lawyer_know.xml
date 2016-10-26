@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="70dp">
+
+    <TextView
+        style="@style/black14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="15dp"
+        android:singleLine="true"
+        android:text="拉客按杀戮时刻就对啦跨世纪的实打实asdasdasdasdasd大师大师的" />
+
+    <TextView
+        android:id="@+id/time"
+        style="@style/hui12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        android:text="2015-7-08" />
+
+    <TextView
+        style="@style/hui12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/time"
+        android:text="赞 20" />
+
+    <ImageView
+        android:src="@mipmap/jiantou"
+        android:layout_marginRight="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true" />
+
+    <View
+        style="@style/line_h"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>

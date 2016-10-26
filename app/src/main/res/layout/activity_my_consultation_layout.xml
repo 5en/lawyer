@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent">
+<com.ebaonet.lawyer.ui.weight.TitleView
+    android:id="@+id/title"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:display_style="left_center"
+    app:displayname="我的咨询 "
+
+    ></com.ebaonet.lawyer.ui.weight.TitleView>
+    <com.wuxiaolong.pullloadmorerecyclerview.PullLoadMoreRecyclerView
+        android:id="@+id/consultation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></com.wuxiaolong.pullloadmorerecyclerview.PullLoadMoreRecyclerView>
+</LinearLayout>

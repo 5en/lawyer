@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="picture_loading">加载图片...</string>
+    <string name="picture_loaded_failed">图片加载失败</string>
+</resources>

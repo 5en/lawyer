@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/page_gray_color"
+    android:layout_height="match_parent">
+
+    <com.ebaonet.lawyer.ui.weight.TitleView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        app:display_style="all_right_text"
+        app:displayname="律师认证"
+        app:right_display_name="保存"
+        android:layout_height="wrap_content">
+        </com.ebaonet.lawyer.ui.weight.TitleView>
+    <include layout="@layout/item_divider_line"
+        style="@style/divider_margin_top_15"
+        ></include>
+    <com.ebaonet.lawyer.ui.weight.LeftTextAndRightTextView
+        android:id="@+id/name"
+
+        android:layout_width="match_parent"
+        android:layout_height="43.5dp"
+        app:leftText="真实姓名"
+        app:rightText="张三"
+        app:isShowImage="true"
+        android:background="@color/white"
+
+        >
+
+    </com.ebaonet.lawyer.ui.weight.LeftTextAndRightTextView>
+    <include layout="@layout/item_divider_line"
+        style="@style/divider_margin_left_15"
+        ></include>
+    <com.ebaonet.lawyer.ui.weight.LeftTextAndRightTextView
+        android:id="@+id/mail"
+
+        android:layout_width="match_parent"
+        android:layout_height="43.5dp"
+        app:leftText="邮箱"
+        app:rightText="sdfsdfef@aq.con"
+        android:background="@color/white"
+
+        >
+
+    </com.ebaonet.lawyer.ui.weight.LeftTextAndRightTextView>
+
+    <include layout="@layout/item_divider_line"
+        style="@style/divider_margin_left_15"
+        ></include>
+
+    <include layout="@layout/item_divider_line"
+        ></include>
+    <include layout="@layout/item_divider_line"
+        style="@style/divider_margin_top_15"
+        ></include>
+
+    <com.ebaonet.lawyer.ui.weight.LeftTextAndRightTextView
+        android:id="@+id/identity"
+
+        android:layout_width="match_parent"
+        android:layout_height="43.5dp"
+        app:leftText="身份证号"
+        app:rightText="张三"
+
+        android:background="@color/white"
+
+        >
+
+    </com.ebaonet.lawyer.ui.weight.LeftTextAndRightTextView>
+
+    <include layout="@layout/item_divider_line"
+        style="@style/divider_margin_left_15"
+        ></include>
+    <com.ebaonet.lawyer.ui.weight.LeftTextAndRightTextView
+        android:id="@+id/lawyer_practice_certificate"
+
+        android:layout_width="match_parent"
+        android:layout_height="43.5dp"
+        app:leftText="律师执业证号"
+        app:rightText="张三"
+
+        android:background="@color/white"
+
+        >
+
+    </com.ebaonet.lawyer.ui.weight.LeftTextAndRightTextView>
+    <include layout="@layout/item_divider_line"
+        style="@style/divider_margin_left_15"
+        ></include>
+    <com.ebaonet.lawyer.ui.weight.LeftTextAndRightTextView
+        android:id="@+id/belong_model"
+
+        android:layout_width="match_parent"
+        android:layout_height="43.5dp"
+        app:leftText="所属版块"
+        app:rightText="张三"
+
+        android:background="@color/white"
+
+        >
+
+    </com.ebaonet.lawyer.ui.weight.LeftTextAndRightTextView>
+    <include layout="@layout/item_divider_line"
+
+        ></include>
+    <include layout="@layout/item_divider_line"
+        style="@style/divider_margin_top_15"
+        ></include>
+
+    <com.ebaonet.lawyer.ui.weight.LeftTextAndRightTextView
+        android:id="@+id/unit"
+
+        android:layout_width="match_parent"
+        android:layout_height="43.5dp"
+        app:leftText="单位"
+        app:rightText="张三"
+
+        android:background="@color/white"
+
+        >
+
+    </com.ebaonet.lawyer.ui.weight.LeftTextAndRightTextView>
+
+    <include layout="@layout/item_divider_line"
+        style="@style/divider_margin_left_15"
+        ></include>
+    <com.ebaonet.lawyer.ui.weight.LeftTextAndRightTextView
+        android:id="@+id/profession"
+
+        android:layout_width="match_parent"
+        android:layout_height="43.5dp"
+        app:leftText="职业"
+        app:rightText="张三"
+
+        android:background="@color/white"
+
+        >
+
+    </com.ebaonet.lawyer.ui.weight.LeftTextAndRightTextView>
+    <include layout="@layout/item_divider_line"
+        style="@style/divider_margin_left_15"
+        ></include>
+    <com.ebaonet.lawyer.ui.weight.LeftTextAndRightTextView
+        android:id="@+id/work_years"
+
+        android:layout_width="match_parent"
+        android:layout_height="43.5dp"
+        app:leftText="工作年限"
+        app:rightText="张三"
+
+        android:background="@color/white"
+
+        >
+
+    </com.ebaonet.lawyer.ui.weight.LeftTextAndRightTextView>
+    <include layout="@layout/item_divider_line"
+        style="@style/divider_margin_top_15"
+        ></include>、
+    <com.ebaonet.lawyer.ui.weight.LeftTextAndRightTextView
+        android:id="@+id/easy_introduce"
+        android:layout_width="match_parent"
+        android:layout_height="43.5dp"
+        app:leftText="简介"
+        app:rightText="张三"
+        android:background="@color/white"
+        >
+
+    </com.ebaonet.lawyer.ui.weight.LeftTextAndRightTextView>
+</LinearLayout>

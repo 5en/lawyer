@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/itemImage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:src="@mipmap/qita" />
+
+    <TextView
+        android:id="@+id/itemName"
+        style="@style/black16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/itemImage"
+        android:layout_marginTop="3dp"
+        android:layout_toRightOf="@+id/itemImage"
+        android:text="王大锤" />
+
+    <TextView
+        style="@style/hui14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/itemName"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/itemName"
+        android:text="婚姻家庭" />
+
+    <TextView
+        android:id="@+id/itemContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/itemImage"
+        android:layout_marginRight="50dp"
+        android:layout_toRightOf="@+id/itemImage"
+        android:singleLine="true"
+        android:text="速度快拉上简单看垃圾上课的垃圾上课的垃圾上课了就爱上课了较大离开谁捡到了"
+        android:textColor="@color/TextColor2"
+        android:textSize="14sp" />
+
+    <View
+        style="@style/line_h"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="15dp" />
+</RelativeLayout>
